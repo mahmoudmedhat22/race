@@ -1,0 +1,271 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.road{
+    position: relative;
+    width: 100%;
+    height: 24vh;
+    background-color: gray;
+    margin-top: 10px;
+}
+.one{
+    background-image:url(../images/road1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.c-one{
+    background-image: url(../images/cartwo.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: staart   5s forwards ;
+}
+@keyframes staart {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+.c-two{
+    background-image: url(../images/carone.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start2   5s  5s forwards;
+}
+@keyframes start2 {
+    0% {
+     right: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+right: 89%;
+       
+    }
+}
+
+.two{
+    background-image:url(../images/road2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.c-three{
+    background-image: url(../images/carfour.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    width: 400px;
+    animation: start3   5.5s  10s forwards;
+}
+@keyframes start3 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.c-four{
+    background-image: url(../images/carthree.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    
+    animation: start4   5s  10s forwards;
+}
+@keyframes start4 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.three{
+    background-image:url(../images/road3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}.c-five{
+    background-image: url(../images/carsix.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start5   5s  15s forwards;
+}
+@keyframes start5 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.c-six{
+    background-image: url(../images/carfive.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start6   5s  17s forwards;
+}
+@keyframes start6 {
+    0% {
+     right: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+right: 89%;
+       
+    }
+}
+
+.four{
+    background-image:url(../images/road4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c-seven{
+    background-image: url(../images/carseven.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start7   5s  21s forwards;
+}
+@keyframes start7 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.c-eight{
+    background-image: url(../images/careight.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start8   5s  20s forwards;
+}
+@keyframes start8 {
+    0% {
+     right: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+right: 89%;
+       
+    }
+}
+
+.car1{
+    position: absolute;
+    width: 200px;
+    height: 47%;
+    background-color: blue;
+    top: 17px;
+   
+}
+
+.car2{
+    position: absolute;
+    width: 200px;
+    height: 47%;
+    background-color: blue;
+    bottom:0px;
+    right:0;
+}
+.c-four{
+    left: 0;
+}
